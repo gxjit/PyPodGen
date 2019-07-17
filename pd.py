@@ -35,10 +35,11 @@ def parseArgs():
 
 class Config:
 
-    ext = (".mp3", ".m4a", ".ogg", ".aac")
+    ext = (".mp3", ".m4a", ".m4b", ".ogg", ".aac")
 
     audioType = {".mp3" : "audio/mpeg", ".m4a" : "audio/x-m4a",
-                 ".ogg" : "audio/ogg", ".aac" : "audio/x-aac"}
+                 ".ogg" : "audio/ogg", ".aac" : "audio/x-aac",
+                 ".m4b" : "audio/x-m4a"}
 
     outFile = "feed.xml"
 
